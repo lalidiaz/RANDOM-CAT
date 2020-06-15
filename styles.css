@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eeeeee;
+  font-family: "Crete Round", serif;
+  width: 100vw;
+  height: 100vh;
+}
+body .wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 600px;
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 40px;
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+}
+body .wrapper .fa-paw {
+  font-size: 2em;
+}
+body .wrapper .name {
+  color: #99b898;
+  font-size: 2em;
+  letter-spacing: 0.2em;
+  text-align: center;
+  text-align: center;
+  padding-top: 20px;
+}
+body .wrapper .kitty {
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%;
+  height: 400px;
+  border: 1px solid white;
+  padding: 2em;
+}
+body .wrapper .jsButton {
+  margin: 0 auto;
+  background-color: #aacdbe;
+  width: 150px;
+  height: 50px;
+  border: none;
+  align-items: center;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-size: 1.3em;
+}
+body .wrapper .jsButton:hover {
+  color: white;
+  background-color: #679b9b;
+}
+
+/*# sourceMappingURL=styles.css.map */
